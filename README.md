@@ -1,7 +1,7 @@
 # Graphlix
 # Graphlix: A Movie Recommendation System
 
-This project explores three recommendation models – **Matrix Factorization (MF)**, **LightGCN**, and **Enhanced NGCF** – to build a personalized movie recommender. The goal was to experiment with baseline and graph-based collaborative filtering methods, evaluate them fairly, and integrate the best-performing model into a simple application that provides real-time recommendations.
+This project explores three recommendation models – **Matrix Factorization (MF)**, **LightGCN**, and **Enhanced NGCF** – to build a personalized movie recommender. The goal was to experiment with baseline and graph-based collaborative filtering methods, evaluate them fairly, and integrate the best-performing model into a simple application that provides real-time recommendations. It demonstrates how we can train graph-based recommendation models and integrate them into a web app with a Python backend and a React frontend.
 
 ---
 
