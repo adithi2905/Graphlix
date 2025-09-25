@@ -1,17 +1,14 @@
 # Graphlix
 # Graphlix: A Movie Recommendation System
 
-<<<<<<< HEAD
-This project explores three recommendation models – **Matrix Factorization (Matrix Factorization)**, **LightGCN**, and **Enhanced NGCF** – to build a personalized movie recommender. The goal was to experiment with baseline and graph-based collaborative filtering methods, evaluate them fairly, and integrate the best-performing model into a simple application that provides real-time recommendations.
-=======
-This project explores three recommendation models – **Matrix Factorization (MF)**, **LightGCN**, and **Enhanced NGCF** – to build a personalized movie recommender. The goal was to experiment with baseline and graph-based collaborative filtering methods, evaluate them fairly, and integrate the best-performing model into a simple application that provides real-time recommendations. It demonstrates how we can train graph-based recommendation models and integrate them into a web app with a Python backend and a React frontend.
->>>>>>> 74a04744fa87a40f320015259e6ead8217b9d427
+
+This project explores three recommendation models – **Matrix Factorization**, **LightGCN**, and **Enhanced NGCF** – to build a personalized movie recommender. The goal was to experiment with baseline and graph-based collaborative filtering methods, evaluate them fairly, and integrate the best-performing model into a simple application that provides real-time recommendations.
 
 ---
 
 ## The Models
 
-I started with **Matrix Factorization (Matrix Factorization)** as our baseline. It’s simple and effective for collaborative filtering, modeling user-item interactions by projecting both into a shared latent space. Matrix Factorization was trained using **stratified sampling** to ensure users with varying activity levels were proportionally represented in both training and evaluation splits.
+I started with **Matrix Factorization** as our baseline. It’s simple and effective for collaborative filtering, modeling user-item interactions by projecting both into a shared latent space. Matrix Factorization was trained using **stratified sampling** to ensure users with varying activity levels were proportionally represented in both training and evaluation splits.
 
 <p align="center">
   <img src="GG/Matrix Factorization/NDCG@10.png" alt="Matrix Factorization NDCG@10" width="500">
@@ -27,7 +24,7 @@ Next, I implemented **LightGCN**, which simplifies traditional graph convolution
 
 While LightGCN brought improvements over Matrix Factorization, its simplified architecture limited expressiveness compared to NGCF in this dataset.
 
-Finally, I enhanced the original **Neural Graph Collaborative Filtering (NGCF)** architecture by adding attention mechanisms, batch normalization, and dropout. These changes helped stabilize learning and capture more nuanced user-item relationships.
+Finally, I enhanced the original **Neural Graph Collaborative Filtering** architecture by adding attention mechanisms, batch normalization, and dropout. These changes helped stabilize learning and capture more nuanced user-item relationships.
 
 <p align="center">
   <img src="GG/NGCF/recommendation_results.png" alt="NGCF Recommendation Metrics" width="500">
