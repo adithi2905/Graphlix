@@ -1,6 +1,13 @@
 # Graphlix: A Movie Recommendation System
 
+<<<<<<< HEAD
 This project explores three recommendation models – **Matrix Factorization**, **LightGCN**, and **Enhanced NGCF** – to build a personalized movie recommender. The goal was to experiment with baseline and graph-based collaborative filtering methods, evaluate them fairly, and integrate the best-performing model into a simple application that provides real-time recommendations.
+=======
+
+This project explores three recommendation models – **Matrix Factorization**, **LightGCN**, and **Enhanced NGCF** – to build a personalized movie recommender. The goal was to experiment with baseline and graph-based collaborative filtering methods, evaluate them fairly, and integrate the best-performing model into a simple application that provides real-time recommendations.
+
+---
+>>>>>>> 1fc62dbb47b4dfc86cea1175077e2eb3dca31522
 
 ## The Models
 
@@ -20,7 +27,7 @@ Next, I implemented **LightGCN**, which simplifies traditional graph convolution
 
 While LightGCN brought improvements over Matrix Factorization, its simplified architecture limited expressiveness compared to NGCF in this dataset.
 
-Finally, I enhanced the original **Neural Graph Collaborative Filtering (NGCF)** architecture by adding attention mechanisms, batch normalization, and dropout. These changes helped stabilize learning and capture more nuanced user-item relationships.
+Finally, I enhanced the original **Neural Graph Collaborative Filtering** architecture by adding attention mechanisms, batch normalization, and dropout. These changes helped stabilize learning and capture more nuanced user-item relationships.
 
 <p align="center">
   <img src="GG/NGCF/recommendation_results.png" alt="NGCF Recommendation Metrics" width="500">
