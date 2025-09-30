@@ -7,7 +7,7 @@ This project explores three recommendation models – **Matrix Factorization**, 
 I started with **Matrix Factorization** as our baseline. It’s simple and effective for collaborative filtering, modeling user-item interactions by projecting both into a shared latent space. Matrix Factorization was trained using **stratified sampling** to ensure users with varying activity levels were proportionally represented in both training and evaluation splits.
 
 <p align="center">
-  <img src="GG/Matrix_factorization/NDCG@10.png" alt="Matrix Factorization NDCG@10" width="500">
+  <img src="GG\Matrix_factorization\NDCG@10.png" alt="Matrix Factorization NDCG@10" width="500">
 </p>
 
 The graph above shows how Matrix Factorization’s ranking metrics evolved during training. While it performed well for a baseline, its ability to model complex user-item relationships was limited.
