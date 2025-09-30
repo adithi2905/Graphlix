@@ -1,20 +1,13 @@
-# Graphlix
 # Graphlix: A Movie Recommendation System
 
-<<<<<<< HEAD
-This project explores three recommendation models – **Matrix Factorization (Matrix Factorization)**, **LightGCN**, and **Enhanced NGCF** – to build a personalized movie recommender. The goal was to experiment with baseline and graph-based collaborative filtering methods, evaluate them fairly, and integrate the best-performing model into a simple application that provides real-time recommendations.
-=======
-This project explores three recommendation models – **Matrix Factorization (MF)**, **LightGCN**, and **Enhanced NGCF** – to build a personalized movie recommender. The goal was to experiment with baseline and graph-based collaborative filtering methods, evaluate them fairly, and integrate the best-performing model into a simple application that provides real-time recommendations. It demonstrates how we can train graph-based recommendation models and integrate them into a web app with a Python backend and a React frontend.
->>>>>>> 74a04744fa87a40f320015259e6ead8217b9d427
-
----
+This project explores three recommendation models – **Matrix Factorization**, **LightGCN**, and **Enhanced NGCF** – to build a personalized movie recommender. The goal was to experiment with baseline and graph-based collaborative filtering methods, evaluate them fairly, and integrate the best-performing model into a simple application that provides real-time recommendations.
 
 ## The Models
 
-I started with **Matrix Factorization (Matrix Factorization)** as our baseline. It’s simple and effective for collaborative filtering, modeling user-item interactions by projecting both into a shared latent space. Matrix Factorization was trained using **stratified sampling** to ensure users with varying activity levels were proportionally represented in both training and evaluation splits.
+I started with **Matrix Factorization** as our baseline. It’s simple and effective for collaborative filtering, modeling user-item interactions by projecting both into a shared latent space. Matrix Factorization was trained using **stratified sampling** to ensure users with varying activity levels were proportionally represented in both training and evaluation splits.
 
 <p align="center">
-  <img src="GG/Matrix Factorization/NDCG@10.png" alt="Matrix Factorization NDCG@10" width="500">
+  <img src="GG/Matrix_factorization/NDCG@10.png" alt="Matrix Factorization NDCG@10" width="500">
 </p>
 
 The graph above shows how Matrix Factorization’s ranking metrics evolved during training. While it performed well for a baseline, its ability to model complex user-item relationships was limited.
